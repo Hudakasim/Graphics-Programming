@@ -6,6 +6,13 @@ function setup()
 function draw() 
 {
   background('gray');
-  
-  // TO BE CONTINUED
+  for (let i = 20; i <= width; i += 40)
+  {
+    for(let j = 20; j <= height; j += 40)
+      {
+        fill('yellow');
+        stroke('blue');
+        circle(i, j, 40);
+      }
+  }
 }
